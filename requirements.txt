@@ -7,5 +7,4 @@ streamlit
 scikit-learn
 plotly
 ptyprocess
-xgboost
-XGBClassifier
+xgboos
