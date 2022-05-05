@@ -31,7 +31,7 @@ st.title('네트워크기지국 안테나의 성능에 따른 민원 예측')
 st.write('')
 st.markdown('* 아래에 데이터를 입력해주세요')
 
-booster.save_model('model_xgb.pkl')
+#booster.save_model('model_xgb.pkl')
 
 le_voc = joblib.load("le.pkl")
 scaler_call = joblib.load("scaler.pkl")
