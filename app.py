@@ -32,8 +32,8 @@ st.write('')
 st.markdown('* 아래에 데이터를 입력해주세요')
 
 
-le_voc = joblib.load("/content/le.pkl")
-scaler_call = joblib.load("/content/scaler.pkl")
+le_voc = joblib.load("le.pkl")
+scaler_call = joblib.load("scaler.pkl")
 model_call= joblib.load("model_knn.pkl")
 
 new_x_df = user_input_features()
