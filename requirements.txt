@@ -7,5 +7,3 @@ streamlit
 scikit-learn
 plotly
 ptyprocess
-xgboost==1.6.0
-numba==0.48.0
